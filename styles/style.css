@@ -42,7 +42,7 @@
   background-image: var(--header__bg-image);
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto 1fr auto;
-  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  padding: var(--main-padding, 10px);
   min-height: 100vh;
 }
 
@@ -154,6 +154,7 @@
   justify-self: start;
   align-self: start;
   color: var(--highlight-color, #000028);
+  margin-block-start: 55px;
   margin-block-end: 66px;
   font-weight: 700;
   line-height: 23.4px;
