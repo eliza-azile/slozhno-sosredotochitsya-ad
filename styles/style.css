@@ -43,6 +43,8 @@
   grid-template-columns: 1fr auto;
   grid-template-rows: repeat(1fr, 3);
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  min-height: 100vh;
+  height: 100vh;
 }
 
 .decorated-zone {
@@ -119,7 +121,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--button-hover-border, #ff0070);
+  outline: 1px solid var(--button-hover-border, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -143,7 +145,7 @@
 }
 
 .header__p {
-  block-size: 117px;
+  block-size: clamp(min-content, 117px);
   text-wrap: wrap;
   color: var(--highlight-color, #000028);
   margin-block-start: 55px;
@@ -238,6 +240,8 @@
 
 .footer {
   place-items: center;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 @media (width >=768px) {
@@ -250,7 +254,7 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .header__title-text {
+  .span-text {
     display: inline;
   }
 
