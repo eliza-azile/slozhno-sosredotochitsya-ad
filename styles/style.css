@@ -264,10 +264,6 @@
 
 @media (width >=768px) {
 
-  .page {
-    padding-block-start: 10px;
-  }
-
   .decorated-zone::after {
     margin-inline-start: 10px;
   }
@@ -323,13 +319,13 @@
   }
 
   .header__title {
-    margin-block-start: 433px;
+    margin-block-start: 443px;
     margin-inline-start: -20px;
     font-size: 120px;
   }
 
   .header__theme-menu {
-    margin-block-start: 107px;
+    margin-block-start: 117px;
   }
 
   .header__p {
@@ -342,7 +338,7 @@
 
   .main {
     gap: 80px;
-    padding: 70px 20px;
+    padding: 80px 20px 72px;
   }
 
   .footer {
@@ -351,15 +347,11 @@
 
   .footer__title {
     font-size: 119px;
-    margin-inline-start: -12px;
+    margin-inline-start: 0;
   }
 }
 
 @media (width >=1024px) {
-
-  .page {
-    padding-block-start: 10px;
-  }
 
   .decorated-zone::after {
     margin-block-end: 10px;
