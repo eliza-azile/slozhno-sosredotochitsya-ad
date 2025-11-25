@@ -360,7 +360,7 @@
   }
 
   .decorated-zone::after {
-    margin-block-end: 65px;
+    margin-block-end: 45px;
   }
 
   .title {
@@ -369,7 +369,7 @@
   }
 
   .main {
-    padding: 4px 7.73px 60px 20px;
+    padding: 24px 7.73px 60px 20px;
   }
 
   .main__section {
