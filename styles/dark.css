@@ -14,10 +14,21 @@
   --header__bg-image: url("../images/cover-image-dark.png");
   --bg-color: var(--color-black, #000028);
 
-
   --rec-visibility: visible;
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: var(--color-light-pink, #f1b2ce);
+    --title-color: var(--color-purple, #db00ff);
+    --secondary-color: var(--color-fucsia, #ff0070);
+    --accent-color: var(--color-fucsia, #ff0070);
+    --button-hover-border: var(--color-purple-2, #ff007040);
+    --highlight-color: var(--color-black, #000028);
+
+    --header__bg-image: url("../images/cover-image-dark.png");
+    --bg-color: var(--color-black, #000028);
+
+    --rec-visibility: visible;
+  }
 }
