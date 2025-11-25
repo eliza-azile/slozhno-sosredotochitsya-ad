@@ -26,7 +26,7 @@
     --highlight-color: #353430;
 
     --bg-color: #fff1f7;
-    --header__background-image: url("../images/cover-image-light.png");
+    --header__bg-image: url("../images/cover-image-light.png");
 
     --rec-visibility: hidden;
   }
