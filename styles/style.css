@@ -11,7 +11,8 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -54,7 +55,7 @@
   inline-size: 25px;
   block-size: 25px;
   display: block;
-  inset-inline-end: 10px;
+  inset-inline-end: var(--main-padding, 10px);
   inset-block-start: var(--main-padding, 10px);
   border-width: 1px 1px 0 0;
   border-style: solid;
@@ -70,7 +71,6 @@
 
 .header__rec {
   position: absolute;
-  display: inline-flex;
   visibility: var(--rec-visibility, visible);
   align-items: end;
   gap: 10px;
