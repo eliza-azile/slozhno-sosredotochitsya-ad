@@ -167,7 +167,6 @@
   color: var(--highlight-color, #000028);
   margin-block-start: 54px;
   margin-inline-end: 23px;
-  max-block-size: min-content;
   margin-block-end: 66px;
   font-weight: 700;
   line-height: 23.4px;
@@ -344,7 +343,6 @@
     margin-block-start: 162px;
     margin-inline-end: 15px;
     margin-block-end: 183px;
-    max-inline-size: 364px;
   }
 
   .main {
@@ -422,8 +420,6 @@
     grid-column: 1 / -1;
     grid-row: 3;
     margin: 114px -14px 134px 0;
-    max-inline-size: 491px;
-    inline-size: 491px;
   }
 
   .header__theme-menu-list {
