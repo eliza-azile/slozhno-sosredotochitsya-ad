@@ -12,6 +12,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -261,6 +263,7 @@
 .footer {
   place-items: center;
   block-size: 100vh;
+  min-height: 668px;
   inline-size: 100%;
   max-inline-size: 400px;
 }
@@ -355,7 +358,8 @@
   }
 
   .footer {
-    block-size: 1004px;
+    min-block-size: 1004px;
+    block-size: 100%;
   }
 
   .footer__title {
@@ -436,7 +440,8 @@
   .footer {
     margin-block-start: 10px;
     margin-inline-end: -30px;
-    block-size: 758px;
+    min-block-size: 758px;
+    block-size: 100vh;
   }
 
   .footer__title {
