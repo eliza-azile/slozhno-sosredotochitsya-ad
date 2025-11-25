@@ -34,7 +34,6 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
 }
 
 .header {
@@ -46,8 +45,6 @@
 }
 
 .decorated-zone {
-  min-height: 668px;
-  block-size: 100vh;
   position: relative;
 }
 
@@ -259,7 +256,6 @@
 .footer {
   place-items: center;
   block-size: 100vh;
-  min-height: 668px;
   inline-size: 100%;
 }
 
@@ -351,8 +347,7 @@
   }
 
   .footer {
-    min-block-size: 1004px;
-    block-size: 100%;
+    block-size: 100vh;
   }
 
   .footer__title {
@@ -430,7 +425,6 @@
   .footer {
     margin-block-start: 10px;
     margin-inline-end: -30px;
-    min-block-size: 758px;
     block-size: 100vh;
   }
 
