@@ -57,7 +57,7 @@
   inline-size: 25px;
   block-size: 25px;
   display: block;
-  inset-inline-end: 35px;
+  inset-inline-end: 10px;
   inset-block-start: var(--main-padding, 10px);
   border-width: 1px 1px 0 0;
   border-style: solid;
@@ -191,7 +191,6 @@
   gap: 50px;
   padding: 40px 10px;
   inline-size: 100%;
-  max-inline-size: 375px;
 }
 
 .main__link {
@@ -263,7 +262,6 @@
   block-size: 100vh;
   min-height: 668px;
   inline-size: 100%;
-  max-inline-size: 400px;
 }
 
 .footer__title {
